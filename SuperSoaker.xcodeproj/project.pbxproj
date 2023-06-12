@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB34F17A2A2D5F9200FF3E65 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34F1782A2D5F9200FF3E65 /* DashboardTableViewCell.swift */; };
+		DB34F17B2A2D5F9200FF3E65 /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB34F1792A2D5F9200FF3E65 /* DashboardTableViewCell.xib */; };
 		DB53E4ED2A2D349D00ADA4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53E4EC2A2D349D00ADA4BE /* AppDelegate.swift */; };
 		DB53E4EF2A2D349D00ADA4BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53E4EE2A2D349D00ADA4BE /* SceneDelegate.swift */; };
 		DB53E4F12A2D349D00ADA4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53E4F02A2D349D00ADA4BE /* ViewController.swift */; };
-		DB53E4F42A2D349D00ADA4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB53E4F22A2D349D00ADA4BE /* Main.storyboard */; };
 		DB53E4F72A2D349D00ADA4BE /* SuperSoaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB53E4F52A2D349D00ADA4BE /* SuperSoaker.xcdatamodeld */; };
 		DB53E4F92A2D349E00ADA4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB53E4F82A2D349E00ADA4BE /* Assets.xcassets */; };
 		DB53E4FC2A2D349E00ADA4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB53E4FA2A2D349E00ADA4BE /* LaunchScreen.storyboard */; };
+		DB53E50A2A2D34CB00ADA4BE /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53E5052A2D34CB00ADA4BE /* DashboardPresenter.swift */; };
+		DB53E50B2A2D34CB00ADA4BE /* DashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53E5062A2D34CB00ADA4BE /* DashboardRouter.swift */; };
+		DB53E50C2A2D34CB00ADA4BE /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53E5072A2D34CB00ADA4BE /* DashboardViewController.swift */; };
+		DB53E50D2A2D34CB00ADA4BE /* DashboardProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53E5082A2D34CB00ADA4BE /* DashboardProtocols.swift */; };
+		DB53E50E2A2D34CB00ADA4BE /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53E5092A2D34CB00ADA4BE /* DashboardInteractor.swift */; };
+		DB53E5102A2D34E100ADA4BE /* DashboardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB53E50F2A2D34E100ADA4BE /* DashboardViewController.storyboard */; };
+		DBFF4DA92A368E1F00B68EB6 /* CalculadoraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF4DA82A368E1F00B68EB6 /* CalculadoraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB34F1782A2D5F9200FF3E65 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		DB34F1792A2D5F9200FF3E65 /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
 		DB53E4E92A2D349D00ADA4BE /* SuperSoaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSoaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB53E4EC2A2D349D00ADA4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB53E4EE2A2D349D00ADA4BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DB53E4F02A2D349D00ADA4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB53E4F32A2D349D00ADA4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB53E4F62A2D349D00ADA4BE /* SuperSoaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperSoaker.xcdatamodel; sourceTree = "<group>"; };
 		DB53E4F82A2D349E00ADA4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB53E4FB2A2D349E00ADA4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB53E4FD2A2D349E00ADA4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB53E5052A2D34CB00ADA4BE /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		DB53E5062A2D34CB00ADA4BE /* DashboardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRouter.swift; sourceTree = "<group>"; };
+		DB53E5072A2D34CB00ADA4BE /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		DB53E5082A2D34CB00ADA4BE /* DashboardProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardProtocols.swift; sourceTree = "<group>"; };
+		DB53E5092A2D34CB00ADA4BE /* DashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
+		DB53E50F2A2D34E100ADA4BE /* DashboardViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashboardViewController.storyboard; sourceTree = "<group>"; };
+		DBFF4DA82A368E1F00B68EB6 /* CalculadoraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB34F1772A2D5F6E00FF3E65 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				DB34F1782A2D5F9200FF3E65 /* DashboardTableViewCell.swift */,
+				DB34F1792A2D5F9200FF3E65 /* DashboardTableViewCell.xib */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
 		DB53E4E02A2D349D00ADA4BE = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +83,39 @@
 		DB53E4EB2A2D349D00ADA4BE /* SuperSoaker */ = {
 			isa = PBXGroup;
 			children = (
+				DB34F1772A2D5F6E00FF3E65 /* ReusableViews */,
+				DB53E5032A2D34B300ADA4BE /* Modules */,
 				DB53E4EC2A2D349D00ADA4BE /* AppDelegate.swift */,
 				DB53E4EE2A2D349D00ADA4BE /* SceneDelegate.swift */,
 				DB53E4F02A2D349D00ADA4BE /* ViewController.swift */,
-				DB53E4F22A2D349D00ADA4BE /* Main.storyboard */,
 				DB53E4F82A2D349E00ADA4BE /* Assets.xcassets */,
 				DB53E4FA2A2D349E00ADA4BE /* LaunchScreen.storyboard */,
 				DB53E4FD2A2D349E00ADA4BE /* Info.plist */,
 				DB53E4F52A2D349D00ADA4BE /* SuperSoaker.xcdatamodeld */,
 			);
 			path = SuperSoaker;
+			sourceTree = "<group>";
+		};
+		DB53E5032A2D34B300ADA4BE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DB53E5042A2D34B900ADA4BE /* Dashboard */,
+				DBFF4DA82A368E1F00B68EB6 /* CalculadoraViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DB53E5042A2D34B900ADA4BE /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				DB53E5052A2D34CB00ADA4BE /* DashboardPresenter.swift */,
+				DB53E5062A2D34CB00ADA4BE /* DashboardRouter.swift */,
+				DB53E5072A2D34CB00ADA4BE /* DashboardViewController.swift */,
+				DB53E5082A2D34CB00ADA4BE /* DashboardProtocols.swift */,
+				DB53E5092A2D34CB00ADA4BE /* DashboardInteractor.swift */,
+				DB53E50F2A2D34E100ADA4BE /* DashboardViewController.storyboard */,
+			);
+			path = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +176,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB53E5102A2D34E100ADA4BE /* DashboardViewController.storyboard in Resources */,
 				DB53E4FC2A2D349E00ADA4BE /* LaunchScreen.storyboard in Resources */,
+				DB34F17B2A2D5F9200FF3E65 /* DashboardTableViewCell.xib in Resources */,
 				DB53E4F92A2D349E00ADA4BE /* Assets.xcassets in Resources */,
-				DB53E4F42A2D349D00ADA4BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB53E50D2A2D34CB00ADA4BE /* DashboardProtocols.swift in Sources */,
 				DB53E4F72A2D349D00ADA4BE /* SuperSoaker.xcdatamodeld in Sources */,
+				DB53E50C2A2D34CB00ADA4BE /* DashboardViewController.swift in Sources */,
+				DB53E50B2A2D34CB00ADA4BE /* DashboardRouter.swift in Sources */,
+				DB34F17A2A2D5F9200FF3E65 /* DashboardTableViewCell.swift in Sources */,
+				DB53E50A2A2D34CB00ADA4BE /* DashboardPresenter.swift in Sources */,
+				DB53E50E2A2D34CB00ADA4BE /* DashboardInteractor.swift in Sources */,
+				DBFF4DA92A368E1F00B68EB6 /* CalculadoraViewController.swift in Sources */,
 				DB53E4F12A2D349D00ADA4BE /* ViewController.swift in Sources */,
 				DB53E4ED2A2D349D00ADA4BE /* AppDelegate.swift in Sources */,
 				DB53E4EF2A2D349D00ADA4BE /* SceneDelegate.swift in Sources */,
@@ -151,14 +207,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB53E4F22A2D349D00ADA4BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB53E4F32A2D349D00ADA4BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB53E4FA2A2D349E00ADA4BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +344,10 @@
 				INFOPLIST_FILE = SuperSoaker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = DashboardViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +355,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlichz.SuperSoaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,9 +376,10 @@
 				INFOPLIST_FILE = SuperSoaker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = DashboardViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +387,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlichz.SuperSoaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
