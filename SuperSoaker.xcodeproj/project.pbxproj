@@ -12,6 +12,7 @@
 		DB16DD532A4151E300283350 /* AddAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16DD4E2A4151E300283350 /* AddAccountViewController.swift */; };
 		DB16DD542A4151E300283350 /* AddAccountProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16DD4F2A4151E300283350 /* AddAccountProtocols.swift */; };
 		DB16DD552A4151E300283350 /* AddAccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16DD502A4151E300283350 /* AddAccountInteractor.swift */; };
+		DB2321DD2A7C950400431274 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2321DC2A7C950400431274 /* Extension+String.swift */; };
 		DB34F17A2A2D5F9200FF3E65 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34F1782A2D5F9200FF3E65 /* DashboardTableViewCell.swift */; };
 		DB34F17B2A2D5F9200FF3E65 /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB34F1792A2D5F9200FF3E65 /* DashboardTableViewCell.xib */; };
 		DB53E4ED2A2D349D00ADA4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB53E4EC2A2D349D00ADA4BE /* AppDelegate.swift */; };
@@ -35,6 +36,7 @@
 		DB16DD4E2A4151E300283350 /* AddAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewController.swift; sourceTree = "<group>"; };
 		DB16DD4F2A4151E300283350 /* AddAccountProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountProtocols.swift; sourceTree = "<group>"; };
 		DB16DD502A4151E300283350 /* AddAccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountInteractor.swift; sourceTree = "<group>"; };
+		DB2321DC2A7C950400431274 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		DB34F1782A2D5F9200FF3E65 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
 		DB34F1792A2D5F9200FF3E65 /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
 		DB53E4E92A2D349D00ADA4BE /* SuperSoaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSoaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,22 @@
 			path = AddAcount;
 			sourceTree = "<group>";
 		};
+		DB2321DA2A7C94DF00431274 /* Uitilities */ = {
+			isa = PBXGroup;
+			children = (
+				DB2321DB2A7C94E900431274 /* Extensions */,
+			);
+			path = Uitilities;
+			sourceTree = "<group>";
+		};
+		DB2321DB2A7C94E900431274 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB2321DC2A7C950400431274 /* Extension+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DB34F1772A2D5F6E00FF3E65 /* ReusableViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +123,7 @@
 		DB53E4EB2A2D349D00ADA4BE /* SuperSoaker */ = {
 			isa = PBXGroup;
 			children = (
+				DB2321DA2A7C94DF00431274 /* Uitilities */,
 				DB34F1772A2D5F6E00FF3E65 /* ReusableViews */,
 				DB53E5032A2D34B300ADA4BE /* Modules */,
 				DB53E4EC2A2D349D00ADA4BE /* AppDelegate.swift */,
@@ -216,6 +235,7 @@
 				DB53E50D2A2D34CB00ADA4BE /* DashboardProtocols.swift in Sources */,
 				DB16DD522A4151E300283350 /* AddAccountRouter.swift in Sources */,
 				DB53E4F72A2D349D00ADA4BE /* SuperSoaker.xcdatamodeld in Sources */,
+				DB2321DD2A7C950400431274 /* Extension+String.swift in Sources */,
 				DB16DD512A4151E300283350 /* AddAccountPresenter.swift in Sources */,
 				DB53E50C2A2D34CB00ADA4BE /* DashboardViewController.swift in Sources */,
 				DB16DD542A4151E300283350 /* AddAccountProtocols.swift in Sources */,
